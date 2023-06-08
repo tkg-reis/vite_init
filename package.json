@@ -1,0 +1,32 @@
+{
+  "name": "vite_sass_img_js",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.21",
+    "sass": "^1.58.3",
+    "vite": "^4.1.0",
+    "vite-plugin-imagemin": "^0.6.1"
+  },
+  "browserslist": [
+    "last 2 versions",
+    "> 5%",
+    "Firefox ESR",
+    "android >= 10",
+    "iOS >= 13",
+    "not dead"
+  ],
+  "dependencies": {
+    "@fullhuman/postcss-purgecss": "^5.0.0",
+    "css-declaration-sorter": "^7.0.0",
+    "postcss-normalize-charset": "^6.0.0",
+    "postcss-sort-media-queries": "^5.2.0"
+  }
+}
